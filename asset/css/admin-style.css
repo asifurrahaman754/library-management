@@ -1,0 +1,43 @@
+.admin_panel_wrapper .library-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.admin_sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 100;
+  padding: 48px 0px 0px;
+  box-shadow: rgb(0 0 0 / 10%) -1px 0px 0px inset;
+}
+
+.admin_sidebar .nav-link {
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+}
+
+.admin_sidebar .nav-link.active {
+  color: rgb(36, 112, 220);
+}
+
+.dash-icon {
+  font-size: 7rem;
+  position: absolute;
+  top: 18%;
+  left: 30%;
+  opacity: 0.2;
+  transform: rotate(-36deg);
+}
+
+#datatablesSimple {
+  white-space: nowrap;
+}
+
+@media (max-width: 420px) {
+  #admin-options {
+    left: 0 !important;
+  }
+}

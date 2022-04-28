@@ -1,0 +1,80 @@
+a {
+  text-decoration: none;
+}
+
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  background: linear-gradient(
+      180deg,
+      rgb(0 0 0 / 30%) 0%,
+      rgb(0 0 0 / 25%) 100%
+    ),
+    linear-gradient(180deg, rgb(0 0 0 / 30%) 0%, rgb(0 0 0 / 32%) 100%),
+    url(../img/home-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.home-title {
+  max-width: 500px;
+  margin: 0px auto 10px auto;
+  padding-top: 50px;
+}
+
+.home-middle-txt {
+  color: var(--bs-gray-400);
+}
+.down {
+  font-size: 2rem;
+  animation: bounce 2s infinite;
+  color: var(--bs-gray-500);
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.process-btn-wrapper {
+  max-width: 600px;
+  margin: 100px auto 20px auto;
+}
+
+.process-btn-wrapper .button {
+  color: black;
+  padding: 15px 15px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.process-btn-wrapper .button-admin {
+  background: #1fc6d0;
+}
+.process-btn-wrapper .button-user {
+  background: #e2f3f5;
+}
