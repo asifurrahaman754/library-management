@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $sql = "UPDATE `users` SET `name`= '$username',`email`= '$email',`password`= '$password' WHERE id = '".$_SESSION["user_id"]."'";
+    $sql = "UPDATE `users` SET `name`= '$username',`email`= '$email',`password`= '$password' WHERE `unique_id` = '".$_SESSION["user_id"]."'";
     $updated_info_result = mysqli_query($con, $sql);
 
     if($updated_info_result){

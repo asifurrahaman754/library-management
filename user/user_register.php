@@ -28,8 +28,9 @@ if(isset($_POST['submit'])){
         $insert_user_result = mysqli_query($con, $insert_user_sql);
     
         if($insert_user_result){
-            $_SESSION['user_unique_id'] = $unique_id;
+            $_SESSION['user_id'] = $unique_id;
             $_SESSION['user_username'] = $username;
+            $_SESSION['user_email'] = $email;
             header("Location: home.php");
         }else{
             $error = "User registration failed!";
