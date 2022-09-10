@@ -9,7 +9,7 @@ This is a fully responsive and dynamic Library Management System where a user ca
 [![lib2.png](https://i.postimg.cc/K8CDwjND/lib2.png)](https://postimg.cc/87Bvr1x7)
 
 
-# Project DFD
+# Project DFD(Data Flow Diagram)
 [![dfd.png](https://i.postimg.cc/bJr002rF/dfd.png)](https://postimg.cc/9R3qC0GG)
 
 
